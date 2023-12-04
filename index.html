@@ -80,7 +80,20 @@
 			</table>
 			
 			
-		</main>
+		
+			<div id="quiz-container">
+				<h1 id="question">Did you like my list?</h1>
+				<div id="options">
+				<input type="radio" name="answer" value="a" id="optionA">
+				<label for="optionA">Yes</label><br>
+				<input type="radio" name="answer" value="b" id="optionB">
+				<label for="optionB">No</label><br>
+			</div>
+			<button onclick="checkAnswer()">Submit Answer</button>
+			<p id="feedback"></p>
+			
+			<script src="site.js"></script>
+		
 		
 		
 		<footer class="footer mt-auto py-3 fixed-bottom bg-dark text-light">
@@ -91,7 +104,7 @@
 						</div>
 					</div>
 				</div>
-			</footer>
+		</footer>
 		
 
 	</body>
