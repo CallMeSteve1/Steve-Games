@@ -67,3 +67,28 @@ background-color: #ffe3ae;
 border: 0px;
 vertical-align: top;
 } -->
+
+#quiz-container {
+	max-width: 400px;
+	margin: 50px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+#options {
+	margin: 15px 0;
+}
+
+button {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color:#45a049;
+}
