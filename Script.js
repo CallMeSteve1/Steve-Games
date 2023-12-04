@@ -1,20 +1,13 @@
-function toggleElement()
-{
-	var paragraph = document.getElementById("toggleParagraph");
-	var button = document.getElementById("toggleButton");
+function checkAnswer() {
+	var selectedAnswer = document.querySelector('input[name="answer"]:checked');
 	
-	// Check current state of the paragraph
-	
-	if (paragraph.style.display === "none" || paragraph.style.display === "") {
-		// if it is hidden, show it
-		paragraph.style.display ="block";
-		button.classList.add("active");
-		button.classList.remove("inactive");
+	if (selectedAnswer !== null) {
+		if (selectedAnswer.value === 'b') {
+			document.getElementById('feedback').innerHTML = 'Correct!';
+		} else {
+			document.getElementById('feedback').innerHTML = 'Wrong answer. Try again!';
+		}
 	} else {
-		//if it is visible then hide it
-		parargraph.style.display = "none";
-		button.classList.remove("active");
-		button.classList.add("inactive");
+		document.getElementById('feedback').innerHTML = 'Please select an answer.';
 	}
-		
 }
