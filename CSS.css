@@ -2,13 +2,13 @@
 	margin:0;
 }
 body {
-	font-family: Ariel, sans-serif;
+	font-family: Ariel, sans-serif !important;
 	font-size: 16px;
 	display: flex;
 	flex-direction: column;
 	min-hight: 100vh;
-	background-color: black;
-	color: white;
+	background-color: black !important;
+	color: white !important;
 }
 
 header {
@@ -41,25 +41,25 @@ footer {
 }
 
 table, td, th {
-	border: 1px solid #000000;
-	border-spacing: 0;
+	border: 1px solid #000000!important;
+	border-spacing: 0!important;
 }
 table {
-	width 75%;
-	margin: auto;
+	width: 75% !important;
+	margin: auto !important;
 }
 
 td, th {
-	pading: 5px;
-	border-color: White;
+	pading: 5px !important;
+	border-color: White !important;
 }
 
 th, caption {
-	font-family: Georgia, serif;
+	font-family: Georgia, serif !important;
 }
 
 td {
-font-family: Tahoma, sans-serif;
+font-family: Tahoma, sans-serif !important;
 }
 
 <!--YouTubeVideo {
@@ -92,3 +92,4 @@ button {
 button:hover {
 	background-color:#45a049;
 }
+
